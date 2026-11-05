@@ -41,6 +41,18 @@ At the standard MNIST budget **ε = 0.3** (L∞, white-box):
 
 See [`paper/paper.md`](paper/paper.md) for the full analysis.
 
+## Companion study: Fashion-MNIST
+
+[`fashion-mnist/`](fashion-mnist/) repeats the attack–defense loop on
+**Fashion-MNIST**, a harder dataset, at the ε = 0.1 budget. It has its own
+code, pipeline, results and paper
+([`fashion-mnist/paper/paper.md`](fashion-mnist/paper/paper.md)). Headline:
+the undefended CNN goes from 92.96% clean accuracy to 0.05% under PGD-20.
+PGD adversarial training restores 78.25% at a 6.36-point clean-accuracy cost.
+FGSM training *with a random start* (Wong et al., 2020) reaches 74.59% and
+does not catastrophically overfit at this budget. All of these models fall
+below 12% at ε = 0.15.
+
 ## Setup
 
 Python ≥ 3.10 (tested on 3.13). CPU only; no GPU needed.

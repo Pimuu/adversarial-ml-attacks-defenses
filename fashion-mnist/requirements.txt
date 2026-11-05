@@ -1,0 +1,6 @@
+# Versions used to produce the committed results (CPU-only run).
+torch>=2.2
+torchvision>=0.17
+numpy>=1.26
+matplotlib>=3.8
+pytest>=8.0
