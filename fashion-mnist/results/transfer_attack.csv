@@ -1,0 +1,10 @@
+source,target,epsilon,accuracy,n
+standard,standard,0.05,0.0604,10000
+standard,fgsm_at,0.05,0.868,10000
+standard,pgd_at,0.05,0.8581,10000
+standard,standard,0.1,0.0003,10000
+standard,fgsm_at,0.1,0.8538,10000
+standard,pgd_at,0.1,0.8486,10000
+standard,standard,0.2,0.0,10000
+standard,fgsm_at,0.2,0.1634,10000
+standard,pgd_at,0.2,0.1946,10000
