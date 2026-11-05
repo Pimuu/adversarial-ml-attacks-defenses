@@ -1,0 +1,4 @@
+model,clean_acc,fgsm_acc_eps0.1,pgd_acc_eps0.1,fgsm_acc_eps0.2,pgd_acc_eps0.2,fgsm_acc_eps0.3,pgd_acc_eps0.3,strong_pgd_acc_eps0.3,transfer_acc_eps0.3
+baseline,0.9915,0.8935,0.8215,0.4160,0.0385,0.0630,0.0000,0.0000,0.0035
+fgsm_at,0.9888,0.9545,0.8295,0.9685,0.0090,0.9890,0.0000,0.0000,0.2495
+pgd_at,0.9834,0.9760,0.9730,0.9690,0.9585,0.9600,0.9260,0.9020,0.9570
