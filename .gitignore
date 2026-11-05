@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# MNIST is downloaded automatically by torchvision on first run.
+data/
+# Smoke-test outputs (python run_pipeline.py --quick --out results_quick)
+results_quick/

@@ -1,0 +1,8 @@
+{
+  "train_baseline_s": 116.0,
+  "train_surrogate_s": 94.7,
+  "train_fgsm_at_s": 218.8,
+  "train_pgd_at_s": 675.9,
+  "sweep_s": 380.3,
+  "strong_check_s": 269.6
+}
